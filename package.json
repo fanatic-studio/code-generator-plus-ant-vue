@@ -1,6 +1,6 @@
 {
-  "name": "ant-design-vue-pro-template",
-  "version": "3.0.0",
+  "name": "code-generator-plus-ant-vue",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

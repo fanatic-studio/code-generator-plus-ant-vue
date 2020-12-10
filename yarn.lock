@@ -3688,6 +3688,11 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
+es6-promise@^4.2.8:
+  version "4.2.8"
+  resolved "https://registry.npm.taobao.org/es6-promise/download/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+  integrity sha1-TrIVlMlyvEBVPSduUQU5FD21Pgo=
+
 escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npm.taobao.org/escalade/download/escalade-3.1.1.tgz?cache=0&sync_timestamp=1602567259580&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescalade%2Fdownload%2Fescalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
@@ -4519,6 +4524,11 @@ git-revision-webpack-plugin@^3.0.6:
   version "3.0.6"
   resolved "https://registry.npm.taobao.org/git-revision-webpack-plugin/download/git-revision-webpack-plugin-3.0.6.tgz#5dd6c6829fae05b405059dea6195b23875d69d4d"
   integrity sha1-XdbGgp+uBbQFBZ3qYZWyOHXWnU0=
+
+github-markdown-css@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npm.taobao.org/github-markdown-css/download/github-markdown-css-4.0.0.tgz#be9f4caf7a389228d4c368336260ffc909061f35"
+  integrity sha1-vp9Mr3o4kijUw2gzYmD/yQkGHzU=
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -6330,6 +6340,16 @@ moment@^2.21.0:
   version "2.29.1"
   resolved "https://registry.npm.taobao.org/moment/download/moment-2.29.1.tgz?cache=0&sync_timestamp=1601983557585&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmoment%2Fdownload%2Fmoment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=
+
+monaco-editor@^0.21.2:
+  version "0.21.2"
+  resolved "https://registry.npm.taobao.org/monaco-editor/download/monaco-editor-0.21.2.tgz#37054e63e480d51a2dd17d609dcfb192304d5605"
+  integrity sha1-NwVOY+SA1Rot0X1gnc+xkjBNVgU=
+
+monaco@^1.201704190613.0+9ac64297a3b2ace5240299ba54b03f5029378397:
+  version "1.201704190613.0"
+  resolved "https://registry.npm.taobao.org/monaco/download/monaco-1.201704190613.0.tgz#45196e25c020c7d102219149772ce3864be04a1c"
+  integrity sha1-RRluJcAgx9ECIZFJdyzjhkvgShw=
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -8820,6 +8840,11 @@ terser@^4.1.2, terser@^4.6.12:
     commander "^2.20.0"
     source-map "~0.6.1"
     source-map-support "~0.5.12"
+
+text-loader@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npm.taobao.org/text-loader/download/text-loader-0.0.1.tgz#8bf75d749b7c0579c939920051c69ea572ebddc1"
+  integrity sha1-i/dddJt8BXnJOZIAUcaepXLr3cE=
 
 text-table@^0.2.0:
   version "0.2.0"

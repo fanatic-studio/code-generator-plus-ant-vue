@@ -18,7 +18,9 @@ import { constantRouterMap } from '@/config/router.config'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
-  mode: 'history',
+  // base: process.env.BASE_URL,
+  // mode: 'history',
+  mode: 'hash',
   routes: constantRouterMap,
 })
 

@@ -20,7 +20,8 @@ function resolve (dir) {
 function getGitHash () {
   try {
     return GitRevision.version()
-  } catch (e) {}
+  } catch (e) {
+  }
   return 'unknown'
 }
 
@@ -44,6 +45,7 @@ const assetsCDN = {
 
 // vue.config
 const vueConfig = {
+  publicPath: '',
   configureWebpack: {
     module: {
       rules: [
@@ -125,22 +127,22 @@ const vueConfig = {
     // If you want to turn on the proxy, please remove the mockjs /src/main.jsL11
     proxy: {
       '/api': {
-         target: 'http://localhost:803/',
+        target: 'http://localhost:803/',
         // target: 'http://192.168.1.204:803',
         secure: false, // 是否校验（或者说理会）对方https证书
         logLevel: 'debug', // 日志等级，默认可以不配置用于调试时打印一些代理信息
         changeOrigin: true,
         onProxyRes: function (proxyRes, req, res) {
-           // 代理response事件
+          // 代理response事件
           console.log('res---->\n')
           console.log(proxyRes.headers)
         },
         onProxyReq: function (proxyReq, req, res) {
-           // 代理requset事件
+          // 代理requset事件
           console.log('req---->\n')
           delete req.headers.host
         },
-         pathRewrite: {
+        pathRewrite: {
           '^/api': '',
         },
       },
