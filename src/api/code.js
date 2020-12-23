@@ -1,4 +1,5 @@
 import { get, post, postDownload } from '@/utils/request'
+
 export default {
   /**
    * 数据库表列表
@@ -33,6 +34,7 @@ export default {
    * @param {string} params.moduleName
    * @param {string} params.author
    * @param {string} params.table
+   * @param {string} params.mappingName
    * @param {string} params.isPlus
    * @returns {*}
    */

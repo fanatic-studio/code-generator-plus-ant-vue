@@ -9,9 +9,9 @@ import store from './store'
 import i18n from './locales'
 import bootstrap from './core/bootstrap'
 import {
- ConfigProvider, Icon, Button, Tag, Menu, Dropdown, Avatar, Spin, Result, Form, Tabs, Input, Checkbox, Row,
-   Col, Modal, Alert, Divider, notification, message,
-   Radio, Card, InputNumber, Table, Tooltip,
+  ConfigProvider, Icon, Button, Tag, Menu, Dropdown, Avatar, Spin, Result, Form, Tabs, Input, Checkbox, Row,
+  Col, Modal, Alert, Divider, notification, message,
+  Radio, Card, InputNumber, Table, Tooltip,
 } from 'ant-design-vue'
 import ProLayout, { PageHeaderWrapper } from '@ant-design-vue/pro-layout'
 import { PageLoading } from '@/components'
@@ -66,6 +66,7 @@ window.umi_plugin_ant_themeVar = themeConfig.theme
 
 // Global imports
 Vue.use(PageLoading)
+
 
 Vue.config.productionTip = false
 

@@ -46,6 +46,7 @@ const assetsCDN = {
 // vue.config
 const vueConfig = {
   publicPath: '',
+  runtimeCompiler: true,
   configureWebpack: {
     module: {
       rules: [
